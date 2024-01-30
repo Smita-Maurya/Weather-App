@@ -1,0 +1,67 @@
+body{
+    background-color:aqua;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: rgb(53, 110, 110);
+    color: white;
+}
+.container .images{
+    display:inline;
+}
+.container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height:300px;
+ }
+nav form .btn{
+    background-color: aqua;
+}
+.container .col{
+    padding: 5%;
+}
+.container .col .card-body{
+    background-color:rgb(179, 90, 161);
+}
+.container .table-responsive table .table{
+    background-color:red;
+    padding-bottom: 10px;
+}
+.container-fluid{
+background-color:rgb(75, 147, 147);
+color:white;
+}
+/*nav ul ul li{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: aqua;
+    color: white;
+}*/
+.container{
+    background-image:url(background-a089d87ba11e1a4c45a8efa960b86092.jpgweather.jpg);
+}
+.container h1{
+    color: white;
+    padding-top: 10px;
+}
+.container h2{
+    padding-bottom: 20px;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
